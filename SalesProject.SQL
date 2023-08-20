@@ -173,3 +173,5 @@ select *
 from windowed_data
 where (total_payments_per_cycle is null and reservation_id is null)
    or (total_payments_per_cycle is not null and reservation_id is not null)
+
+
